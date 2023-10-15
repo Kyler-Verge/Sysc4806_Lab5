@@ -6,6 +6,8 @@ import jakarta.persistence.*;
 
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
+
 //Kyler Verge
 //101114854
 //September 18th 2023

@@ -78,6 +78,10 @@ public class AddressBook implements Serializable{
             }
         }
     }
+
+    public int getAddressBookSize(){
+        return buddyInfos.size();
+    }
 }
 
 
