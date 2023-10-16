@@ -1,3 +1,3 @@
 # Sysc4806_Lab5
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![https://github.com/Kyler-Verge/Sysc4806_Lab5/blob/master/.github/workflows/maven.yml](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
