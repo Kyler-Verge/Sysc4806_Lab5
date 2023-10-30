@@ -19,10 +19,11 @@ public class AddressBookController {
         return repo.save(new AddressBook());
     }
 
-    @PostMapping("/addressbooks/{id}/addBuddy")
+    @PostMapping(path = "/addressbooks/{id}/addBuddyback")
     public AddressBook addBuddy(@PathVariable Integer id, @RequestBody BuddyInfo buddy){
         AddressBook addressBook = repo.findById(id).orElseThrow();
         addressBook.addBuddy(buddy);
+        System.out.println("test add buddy");
         return repo.save(addressBook);
     }
 
